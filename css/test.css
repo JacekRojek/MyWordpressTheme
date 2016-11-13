@@ -1,0 +1,51 @@
+.carousel .item{
+  height:350px;
+  overflow: hidden;
+}
+.carousel .item img{
+  width: 100%;
+  height: auto;
+  margin-top: -35%;
+}
+
+.carousel-caption a{
+color:white;
+}
+.blog-element a{
+color:white;
+text-shadow: 0 1px 1px black;
+}
+.blog-element{
+   display:block;
+    height: 200px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.second-row-padding:nth-child(2){padding-right: 0;}
+.second-row-padding:nth-child(3){padding-left: 0;}
+.third-row-padding{padding: 0;}
+.third-row-padding:nth-child(6) {padding-right: 15px;}
+.third-row-padding:nth-child(4) {padding-left: 15px;}
+
+
+/*================== HEADER SEARCH FORM ==============*/
+.search-form-container {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: none;
+  z-index: 2;
+ }
+ .open-search a{
+   font-size: 0;
+   width: 30px;
+   position: relative;
+ }
+ .open-search a:after{
+   position: relative;
+ }
